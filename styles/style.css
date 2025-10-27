@@ -1,0 +1,143 @@
+body{
+    background-color:#1A1A1A;
+    color: white;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+/* navigation */
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links a{
+    color: white;
+    margin-right: 10px;
+    padding: 15px;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: #00a6a6;
+}
+
+
+.nav-links button{
+    background: transparent;
+    border: none;
+}
+.nav-links button:hover,a:hover{
+    scale: 1.5;
+}
+
+.nav-links img{
+    width: 20px;
+}
+
+nav hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+    opacity: 0.3;
+}
+
+/* Hero Section */
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero{
+    flex: 1;
+    padding: 200px 0 50px 200px;
+}
+
+.hero h1{
+    font-size: 100px;
+}
+.hero p{
+    font-size: 35px;
+    color: grey;
+}
+
+.view-work-btn{
+    background-color: #00a6a6;
+    border: none;
+    color: white;
+
+}
+
+.view-work-btn:hover{
+    background-color: #1A1A1A;
+    color:#00a6a6;
+    border:1px solid;
+}
+
+.contact-me-btn{
+    background-color: #1A1A1A;
+    color:#00a6a6;
+    border:1px solid;
+}
+
+.contact-me-btn:hover{
+    background-color: #00a6a6;
+    border: none;
+    color: white;
+}
+
+.hero button{
+    flex-direction: row;
+    justify-content: center;
+    margin: 6px;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.hero-image{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+}
+.hero-image img{
+    height: 350px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* about me */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 200px ;
+}
+
+
+.about-me, .technical-skills{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me h1, .about-me h1{
+    margin-bottom: 20px;
+}
+
+.about-me p{
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.technical-skills img{
+    height: 100px;
+}
+
+
+
