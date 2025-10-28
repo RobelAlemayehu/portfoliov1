@@ -133,6 +133,7 @@ nav hr{
 .about-me p{
     line-height: 1.6;
     font-size: 20px;
+    text-align: justify;
 }
 
 .technical-skills img{
@@ -140,9 +141,21 @@ nav hr{
 }
 
 
-.languages{
+.languages {
     display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    justify-items: center; 
+    align-items: center; 
+    padding-right: 100px;
 }
+
+.languages p{
+    text-align: center;
+}
+
+
+
 
 
 
