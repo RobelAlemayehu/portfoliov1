@@ -1,5 +1,5 @@
 body{
-    background-color:#1A1A1A;
+    background-color:#111827;
     color: white;
     font-family: 'Poppins';
     scroll-behavior: smooth;
@@ -152,6 +152,17 @@ nav hr{
 
 .languages p{
     text-align: center;
+}
+
+.html, .css,.javaScript, .python, .cpp, .java,.git, .mysql{
+    border: #00a6a6 2px solid;
+    margin: 2px;
+    padding: 15px 7px 0 7px;
+    border-radius: 15px;
+}
+
+.html:hover, .css:hover, .javaScript:hover, .python:hover, .cpp:hover, .java:hover,.git:hover, .mysql:hover{
+    scale: 1.1;
 }
 
 
