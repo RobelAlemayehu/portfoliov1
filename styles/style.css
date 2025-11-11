@@ -1,196 +1,226 @@
-body{
-    background-color:#111827;
-    color: white;
-    font-family: 'Poppins';
-    scroll-behavior: smooth;
-}
-/* navigation */
-.nav-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav-links a{
-    color: white;
-    margin-right: 10px;
-    padding: 15px;
-    text-decoration: none;
-}
-.nav-links a:hover{
-    color: #00a6a6;
+body {
+  background-color: #111827;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
-
-.nav-links button{
-    background: transparent;
-    border: none;
-}
-.nav-links button:hover,a:hover{
-    scale: 1.5;
+/* Navigation */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-links img{
-    width: 20px;
+.nav-links a {
+  color: white;
+  margin-right: 10px;
+  padding: 15px;
+  text-decoration: none;
 }
 
-nav hr{
-    border: none;
-    height: 1px;
-    background-color: white;
-    opacity: 0.3;
+.nav-links a:hover {
+  color: #00a6a6;
+}
+
+.nav-links button {
+  background: transparent;
+  border: none;
+}
+
+.nav-links button:hover,
+.nav-links a:hover {
+  scale: 1.5;
+}
+
+.nav-links img {
+  width: 20px;
+}
+
+nav hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  opacity: 0.3;
 }
 
 /* Hero Section */
-
-.hero-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.hero{
-    flex: 1;
-    padding: 200px 0 50px 200px;
+.hero {
+  flex: 1;
+  padding: 200px 0 50px 200px;
 }
 
-.hero h1{
-    font-size: 100px;
-}
-.hero p{
-    font-size: 35px;
-    color: grey;
+.hero h1 {
+  font-size: 100px;
 }
 
-.view-work-btn{
-    background-color: #00a6a6;
-    border: none;
-    color: white;
-
+.hero p {
+  font-size: 35px;
+  color: grey;
 }
 
-.view-work-btn:hover{
-    background-color: #1A1A1A;
-    color:#00a6a6;
-    border:1px solid;
+.hero button {
+  margin: 6px;
+  border-radius: 8px;
+  padding: 8px 10px;
 }
 
-.contact-me-btn{
-    background-color: #1A1A1A;
-    color:#00a6a6;
-    border:1px solid;
+.view-work-btn {
+  background-color: #00a6a6;
+  border: none;
+  color: white;
 }
 
-.contact-me-btn:hover{
-    background-color: #00a6a6;
-    border: none;
-    color: white;
+.view-work-btn:hover {
+  background-color: #1a1a1a;
+  color: #00a6a6;
+  border: 1px solid;
 }
 
-.hero button{
-    flex-direction: row;
-    justify-content: center;
-    margin: 6px;
-    border-radius: 8px;
-    padding: 8px 10px;
+.contact-me-btn {
+  background-color: #1a1a1a;
+  color: #00a6a6;
+  border: 1px solid;
 }
 
-.hero-image{
-    flex:1;
-    display: flex;
-    justify-content: center;
-    padding-right: 200px;
-}
-.hero-image img{
-    height: 350px;
-    width: 400px;
-    border-radius: 50%;
+.contact-me-btn:hover {
+  background-color: #00a6a6;
+  color: white;
+  border: none;
 }
 
-/* about me */
-
-.about{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding: 50px;
-    flex-wrap: wrap;
-    padding: 50px 0 50px 200px ;
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-right: 200px;
 }
 
-
-.about-me, .technical-skills{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+.hero-image img {
+  height: 350px;
+  width: 400px;
+  border-radius: 50%;
 }
 
-.about-me h1, .about-me h1{
-    margin-bottom: 20px;
+/* About */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 0 50px 200px;
 }
 
-.about-me p{
-    line-height: 1.6;
-    font-size: 20px;
-    text-align: justify;
+.about-me,
+.technical-skills {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.technical-skills img{
-    height: 100px;
+.about-me h1 {
+  margin-bottom: 20px;
 }
 
+.about-me p {
+  line-height: 1.6;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.technical-skills img {
+  height: 100px;
+}
 
 .languages {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 10px; 
-    justify-items: center; 
-    align-items: center; 
-    padding-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding-right: 100px;
 }
 
-.languages p{
-    text-align: center;
+.languages p {
+  text-align: center;
 }
 
-.html, .css,.javaScript, .python, .cpp, .java,.git, .mysql{
-    border: #00a6a6 2px solid;
-    margin: 2px;
-    padding: 15px 7px 0 7px;
-    border-radius: 15px;
+.languages div {
+  border: 2px solid #00a6a6;
+  margin: 2px;
+  padding: 15px 7px 0 7px;
+  border-radius: 15px;
+  transition: transform 0.2s;
 }
 
-.html:hover, .css:hover, .javaScript:hover, .python:hover, .cpp:hover, .java:hover,.git:hover, .mysql:hover{
-    scale: 1.1;
+.languages div:hover {
+  transform: scale(1.1);
 }
 
-.projects{
-    padding: 200px 0 50px 200px;
+/* Projects */
+.projects {
+  padding: 200px 0 50px 200px;
 }
 
-.projects p{
-    color:gray;
-    font-weight: bold;
+.projects p {
+  color: gray;
+  font-weight: bold;
 }
 
-.all-btn, .front-btn, .back-btn, .full-btn{
-    margin-right: 10px 13px 10px 12px;
-    padding: 10px 13px 10px 12px;
-    justify-content: center;
-    background-color: transparent;
-    color: white;
-    border-radius: 20px;
-    border-color: white;
-    border:thin 1px;
+.project-btn button {
+  margin: 10px 12px;
+  padding: 10px 13px;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
 }
 
-.projects button:hover{
-    background-color: #00a6a6;
+.projects button:hover {
+  background-color: #00a6a6;
 }
 
+/* Contact */
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid #00a6a6;
+  border-radius: 10px;
+}
 
+.contact-me form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.contact-me input,
+.contact-me textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
 
+.contact-me input[type="submit"] {
+  background-color: #00a6a6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
-
+.contact-me input[type="submit"]:hover {
+  background-color: #008080;
+}
